@@ -1,6 +1,6 @@
 = Apparat
 
-Ruby SOAP client for the Apparat SMS service. (http://www.apparat.no)
+Ruby SOAP client for the Apparat SMS service (http://www.apparat.no).
 
 == Installation
 
@@ -11,6 +11,8 @@ Install from GitHub:
 
 == Usage
 
+ mc = Apparat::MessagingClient.new('my_private_key', :sender => 'elektronaut', :product_id => 1)
+ mc.send(my_phone_number, 'Hello world!')
 
 == Licence
 
