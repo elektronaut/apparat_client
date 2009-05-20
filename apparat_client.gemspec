@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "apparat_client.gemspec",
      "lib/apparat.rb",
      "test/apparat_test.rb",
      "test/test_helper.rb"
