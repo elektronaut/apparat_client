@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "apparat-client"
+    gem.name = "apparat_client"
     gem.summary = %Q{Ruby SOAP interface for apparat.no's SMS service}
     gem.email = "inge@manualdesign.no"
-    gem.homepage = "http://github.com/elektronaut/apparat-client"
+    gem.homepage = "http://github.com/elektronaut/apparat_client"
     gem.authors = ["Inge Jørgensen"]
-    gem.rubyforge_project = "apparat-client"
+    #gem.rubyforge_project = "apparat-client"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
