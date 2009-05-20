@@ -1,0 +1,7 @@
+= apparat-client
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Inge Jørgensen. See LICENSE for details.
