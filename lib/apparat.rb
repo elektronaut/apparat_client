@@ -26,7 +26,7 @@ module Apparat
 
 		def cleanup_msisdn( msisdn )
 			msisdn.gsub!( /[^\d]/, '' )
-			if msisdn.length = 8
+			if msisdn.length == 8
 				msisdn = "47"+msisdn
 			end
 		end
